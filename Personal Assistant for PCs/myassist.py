@@ -74,7 +74,7 @@ if __name__ == "__main__":
                 print('Your virtual assistant Jarvis is shutting down,Good bye')
                 speak('your virtual assistant Jarvis is shutting down,Good bye')
                 break
-
+#1
         elif 'wikipedia' in query:
             speak('Searching Wikipedia...')
             query = query.replace("wikipedia", "")
@@ -99,25 +99,25 @@ if __name__ == "__main__":
   
                # else: 
                #     print("Wrong Input")
-
+#2
         elif 'open youtube' in query:
             webbrowser.open_new_tab("https://www.youtube.com")
             print("Youtube is open now")
             speak("youtube is open now")
-
+#3
         elif 'open google' in query:
             webbrowser.open("google.com")
             speak("Google chrome is open now")
-
+#4
         elif 'open gmail' in query:
                 webbrowser.open_new_tab("https://bit.ly/3iOcR5z")
                 print("Google Mail opening now")
                 speak("Google Mail opening now")  
-
+#5
         elif 'news' in query:
                 news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
                 speak('Here are some headlines for you')
-
+#6
         elif "weather" in query:
             api_key="8ef61edcf1c576d65d836254e11ea420"
             base_url="https://api.openweathermap.org/data/2.5/weather?"
@@ -152,53 +152,53 @@ if __name__ == "__main__":
 
             else:
                 speak(" City Not Found ")
-        
+#7
         elif 'play music' in query:
             music_dir = ''
             songs = os.listdir(music_dir)
             print(songs)    
             os.startfile(os.path.join(music_dir, songs[0]))
-
+#8
         elif 'time' in query:
             current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
             print (current_time)
             speak(str(current_time.hour)+'hour'+str(current_time.minute)+'minutes')
-
+#9
         elif 'open chrome' in query:
               chromePath = "C:\Program Files (x86)\Google\Chrome\Application\chrome"
               os.startfile(chromePath)
-        
+#10
         elif 'change tab' in query:
               pyautogui.keyDown("alt")
               pyautogui.press("tab")
               pyautogui.keyUp("alt")
-
+#11
         elif 'open calculator' in query:
             subprocess.Popen('C:\\Windows\\System32\\calc.exe')
-            
+#12
         elif 'open notepad' in query:
           subprocess.Popen('C:\\Windows\\System32\\notepad.exe')
-        
+#13
         elif "log off" in query or "sign out" in query:
             speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
             subprocess.call(["shutdown", "/l"])
-
+#14
         elif "camera" in query or "take a photo" in query or "capture"in query:
             #date_string = datetime.datetime.now().strftime("%Y-%m-%d-%H:%M")
             ec.capture(0,"robo camera","img.jpg")
-
+#15
         elif 'show all installed apps' in query:
             for app in winapps.list_installed():
                 print(app)     
                 print("\n\n")
                 #speak(app)
-        
+ #16
         elif 'search software' in query:
             speak('Which software do you want to search')
             soft=takeCommand()
             for app in winapps.search_installed(soft):
                 print(app)
-        
+ #17       
         elif "write a note" in query:
             speak("What should i write, sir")
             note = takeCommand()
@@ -212,43 +212,43 @@ if __name__ == "__main__":
                 file.write(note)
             else:
                 file.write(note)
-         
+ #18        
         elif "show note" in query:
             speak("Showing Notes")
             file = open("note.txt", "r") 
             print(file.read())
             speak(file.read(6))
-
+#19
         elif 'lock window' in query:
                 speak("locking the device")
                 ctypes.windll.user32.LockWorkStation()
- 
+ #20
         elif 'shutdown' in query:
                 speak("Hold On a Sec ! Your system is on its way to shut down")
                 subprocess.call('shutdown / p /f')
-                 
+ #21                
         elif 'empty recycle bin' in query:
             winshell.recycle_bin().empty(confirm = False, show_progress = False, sound = True)
             speak("Recycle Bin Recycled")
-        
+ #22      
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20, 
                                                        0, 
                                                        "Location of wallpaper",
                                                        0)
             speak("Background changed succesfully")
-
+#23
         elif 'cmd' or 'command prompt' in query:
             os.startfile("cmd")
-
+#24
         elif 'task manager' in query:
             pyautogui.hotkey('ctrl','shift','esc')
-            
+#25            
         elif 'screenshot' in query:
             pyautogui.hotkey('win','shift','s')
         
         
-        
+ #26       
         elif 'search' in query or 'play' in query:
              
             query = query.replace("search", "") 
