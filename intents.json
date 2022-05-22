@@ -1,0 +1,1700 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What help you provide?",
+                "How you can be helpful?"
+            ],
+            "responses": [
+                "",
+                "I can provide solution related to following problems "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "data",
+            "patterns": [
+                "what is data",
+                "data definition"
+            ],
+            "responses": [
+                "Data can be defined as a representation of facts, concepts, or instructions in a formalized manner, which should be suitable for communication, interpretation, or processing by human or electronic machine. Data is represented with the help of characters such as alphabets (A-Z, a-z), digits (0-9) or special characters (+,-,/,*,<,>,= etc.)"
+            ],
+            "context": [
+                "basics"
+            ]
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "what is information",
+                "information definition"
+            ],
+            "responses": [
+                "Information is organized or classified data, which has some meaningful values for the receiver. Information is the processed data on which decisions and actions are based."
+            ],
+            "context": [
+                "basics"
+            ]
+        },
+        {
+            "tag": "python",
+            "patterns": [
+                "what is python",
+                "python definition"
+            ],
+            "responses": [
+                "Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects",
+                "Python was created by Guido van Rossum, and released in 1991. It is a general-purpose computer programming language. It is a high-level, object-oriented language which can run equally on different platforms such as Windows, Linux, UNIX, and Macintosh. Its high-level built-in data structures, combined with dynamic typing and dynamic binding. It is widely used in data science, machine learning and artificial intelligence domain.",
+                "Python is a General Purpose object-oriented programming language, which means that it can model real-world entities. It is also dynamically-typed because it carries out type-checking at runtime. It does so to make sure that the type of construct matches what we expect it to be."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "why named python",
+            "patterns": [
+                "what is it called python",
+                "why named python"
+            ],
+            "responses": [
+                "Guido van Rossum named it after the comedy group Monty Python. That is why the metasyntactic variables, that is those we will often use to explain code syntax,  used here are spam and eggs instead of foo and bar."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "history of python",
+            "patterns": [
+                "what is the history of python",
+                "history python"
+            ],
+            "responses": [
+                "Python was conceived in the late 1980s and was named after the BBC TV show Monty Pythons Flying Circus. Guido van Rossum started implementing Python at CWI in the Netherlands in December of 1989. This was a successor to the ABC programming language which was capable of exception handling and interfacing with the Amoeba operating system. On October 16 of 2000, Python 2.0 released with many new features. Then Python 3.0 was released on December 3, 2008."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "why learn python",
+            "patterns": [
+                "why learn python",
+                "why python"
+            ],
+            "responses": [
+                "Python is the most powerful language you can still read, Says Paul Dubois. Python is one of the richest Programming languages. Going by the TIOBE Index, Python is the Most Popular Programming Language in the world. This makes a career in Python a great choice."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "features of python",
+            "patterns": [
+                "what are the advantages of python",
+                "explain advantages of python",
+                "mention advantages of python",
+                "features of python"
+            ],
+            "responses": [
+                "1 Python is Interpreted language. 2 Free and open source. 3 Extensible. 4 Object-oriented. 5 Has Built-in data structure. 6 Readability. 7 High-Level Language. 8 Cross-platform. 9 Portable."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Interpreted language",
+            "patterns": [
+                "What are the Interpreted",
+                "Explain Interpreted"
+            ],
+            "responses": [
+                "Python does not require prior compilation of code and executes instructions directly.",
+                "It is interpreted or executed line by line. This makes it easy to test and debug."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Free and open source",
+            "patterns": [
+                "Free and open source"
+            ],
+            "responses": [
+                "Python is an open-source project which is publicly available to reuse. It can be downloaded free of cost.",
+                "Python language and its source code are available to the public for free, there is no need to buy a costly license."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Extensible",
+            "patterns": [
+                "Extensible"
+            ],
+            "responses": [
+                "Python is very flexible and extensible with any module."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Object-oriented",
+            "patterns": [
+                "Object-oriented"
+            ],
+            "responses": [
+                "Python allows to implement the Object-Oriented concepts to build application solution.",
+                "The Python programming language supports classes and objects and hence it is object-oriented."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Built-in data structure",
+            "patterns": [
+                "Built-in data structure"
+            ],
+            "responses": [
+                "Tuple, List, and Dictionary are useful integrated data structures provided by the language."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Portable",
+            "patterns": [
+                "Portable"
+            ],
+            "responses": [
+                "Python programs can run on cross platforms without affecting its performance.",
+                "Since Python is open-source, you can run it on Windows, Mac, Linux or any other platform. Your programs will work without any need to change it for every machine."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "applications of python",
+            "patterns": [
+                "What are the applications of python",
+                "Explain applications of python",
+                "Mention applications of python"
+            ],
+            "responses": [
+                "Web and Internet Development, Games, Scientific and computational applications, Language development, Image processing and graphic design applications, Enterprise and business applications development, Operating systems, GUI based desktop applications",
+                "Build a website using Python, Develop a game in Python, Perform Computer Vision Facilities like face-detection and color-detection, Implement Machine Learning, Enable Robotics with Python, Perform Web Scraping which is Harvest data from websites",
+                "Perform Data Analysis using Python, Automate a web browser, Perform Scripting in Python, Perform Scientific Computing using Python, Build Artificial Intelligence"
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Literals",
+            "patterns": [
+                "What is Literals",
+                "What do you mean by literals"
+            ],
+            "responses": [
+                "Literals can be defined as a data which is given in a variable or constant. Python supports String Literals, numeric literals integer, float and complex, Boolean Literals true or false, Special literals like null"
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "String literal",
+            "patterns": [
+                "String literal"
+            ],
+            "responses": [
+                "String literals are formed by enclosing text in the single or double quotes. For example, string literals are string values."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Numeric literal",
+            "patterns": [
+                "Numeric literal"
+            ],
+            "responses": [
+                "Python supports three types of numeric literals integer, float and complex."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Boolean literal",
+            "patterns": [
+                "Boolean literals"
+            ],
+            "responses": [
+                "Boolean literals are used to denote Boolean values. It contains either True or False."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Special literals",
+            "patterns": [
+                ""
+            ],
+            "responses": "Python contains one special literal, that is, 'None'. This special literal is used for defining a null variable. If 'None' is compared with anything else other than a 'None', it will return false.",
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "functions",
+            "patterns": [
+                "What are functions",
+                "Explain functions"
+            ],
+            "responses": [
+                "A function is a section of the program or a block of code that is written once and can be executed whenever required in the program. A function is a block of self-contained statements which has a valid name, parameters list, and body. Functions make programming more functional and modular to perform modular tasks. Python provides several built-in functions to complete tasks and also allows a user to create new functions as well. There are three types of functions, Built In Functions: copy, len, count are the some builtin functions. User defined Functions: Functions which are defined by a user known as user defined functions. Anonymous functions, These functions are also known as lambda functions because they are not declared with the standard def keyword."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "break statement",
+            "patterns": [
+                "What is break statement",
+                "Explain break statement"
+            ],
+            "responses": [
+                "The break statement is used to terminate the execution of the current loop. Break always breaks the current execution and transfer control to outside the current block. If the block is in a loop, it exits from the loop, and if the break is in a nested loop, it exits from the innermost loop."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "tuple",
+            "patterns": [
+                "What is tuple",
+                "Explain tuple"
+            ],
+            "responses": [
+                "A tuple is a built-in data collection type. It allows us to store values in a sequence. It is immutable, so no change is reflected in the original data. It uses () brackets rather than [] square brackets to create a tuple. We cannot remove any element but can find in the tuple. We can use indexing to get elements. It also allows traversing elements in reverse order by using negative indexing. Tuple supports various methods like max(), sum(), sorted(), Len() etc."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "operators",
+            "patterns": [
+                "What is operator",
+                "Explain operators",
+                "what are the types of operators"
+            ],
+            "responses": [
+                "An operator is a particular symbol which is used on some values and produces an output as a result. An operator works on operands. Operands are numeric literals or variables which hold some values. Operators can be unary, binary or ternary. An operator which requires a single operand known as a unary operator, which require two operands known as a binary operator and which require three operands is called ternary operator. Python uses a rich set of operators to perform a variety of operations. Some individual operators like membership and identity operators are not so familiar but allow to perform operations. Arithmetic Operators, Relational Operators, Assignment Operator, Logical Operators, Membership Operators, Identity Operators, Bitwise Operators."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "namespace",
+            "patterns": [
+                "What is namespace",
+                "Explain namespace"
+            ],
+            "responses": [
+                "The namespace is a fundamental idea to structure and organize the code that is more useful in large projects. However, it could be a bit difficult concept to grasp if you're new to programming. Hence, we tried to make namespaces just a little easier to understand. A namespace is defined as a simple system to control the names in a program. It ensures that names are unique and won't lead to any conflict. Also, Python implements namespaces in the form of dictionaries and maintains name-to-object mapping where names act as keys and the objects as values."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "iterators",
+            "patterns": [
+                "What are iterators",
+                "Explain iterators"
+            ],
+            "responses": [
+                "In Python, iterators are used to iterate a group of elements, containers like a list. Iterators are the collection of items, and it can be a list, tuple, or a dictionary. Python iterator implements __itr__ and next() method to iterate the stored elements. In Python, we generally use loops to iterate over the collections (list, tuple). In simple words: Iterators are objects which can be traversed though or iterated upon."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Slicing",
+            "patterns": [
+                "What is Slicing",
+                "Explain Slicing"
+            ],
+            "responses": [
+                "Slicing is a mechanism used to select a range of items from sequence type like list, tuple, and string. It is beneficial and easy to get elements from a range by using slice way. It requires a : (colon) which separates the start and end index of the field. All the data collection types List or tuple allows us to use slicing to fetch elements. Although we can get elements by specifying an index, we get only single element whereas using slicing we can get a group of elements."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "dictionary",
+            "patterns": [
+                "What is dictionary",
+                "Explain dictionary"
+            ],
+            "responses": [
+                "The Python dictionary is a built-in data type. It defines a one-to-one relationship between keys and values. Dictionaries contain a pair of keys and their corresponding values. It stores elements in key and value pairs. The keys are unique whereas values can be duplicate. The key accesses the dictionary elements."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "pass",
+            "patterns": [
+                "What is pass",
+                "Explain pass"
+            ],
+            "responses": [
+                "Pass specifies a Python statement without operations. It is a placeholder in a compound statement. If we want to create an empty class or functions, the pass keyword helps to pass the control without error."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "pickling and unpickling",
+            "patterns": [
+                "What is pickling and unpickling",
+                "Explain pickling and unpickling"
+            ],
+            "responses": [
+                "The Python pickle is defined as a module which accepts any Python object and converts it into a string representation. It dumps the Python object into a file using the dump function; this process is called Pickling. The process of retrieving the original Python objects from the stored string representation is called as Unpickling."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "Type conversion",
+            "patterns": [
+                "What is Type conversion",
+                "Explain Type conversion"
+            ],
+            "responses": [
+                "Type conversion refers to the conversion of one data type into another. int converts any data type into integer type, float converts any data type into float type, ord converts characters into integer, hex converts integers to hexadecimal, oct converts integer to octal, tuple This function is used to convert to a tuple, set This function returns the type after converting to set, list This function is used to convert any data type to a list type, dict This function is used to convert a tuple of order key, value into a dictionary, str Used to convert integer into a string., complex This function converts real numbers to complex number."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "init",
+            "patterns": [
+                "What is init",
+                "Explain init"
+            ],
+            "responses": [
+                "The init is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the init method."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "self",
+            "patterns": [
+                "What is self",
+                "Explain self"
+            ],
+            "responses": [
+                "Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it's optional. It helps to differentiate between the methods and attributes of a class with local variables. The self-variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "PYTHONPATH",
+            "patterns": [
+                "What is PYTHONPATH",
+                "Explain PYTHONPATH"
+            ],
+            "responses": [
+                "PYTHONPATH is an environment variable which is used when a module is imported. Whenever a module is imported, PYTHONPATH is also looked up to check for the presence of the imported modules in various directories. The interpreter uses it to determine which module to load."
+            ],
+            "context": [
+                "info_regarding_python"
+            ]
+        },
+        {
+            "tag": "machine learning definition",
+            "patterns": [
+                "what do you understand by machine learning",
+                "what is machine learning",
+                "machine learning",
+                "explain machine learning"
+            ],
+            "responses": [
+                "Machine learning is the form of Artificial Intelligence that deals with system programming and automates data analysis to enable computers to learn and act through experiences without being explicitly programmed."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "inductive learning definition",
+            "patterns": [
+                "inductive learning",
+                "what is inductive learning"
+            ],
+            "responses": [
+                "Inductive Learning, also known as Concept Learning, is how AI systems attempt to use a generalized rule to carry out observations.",
+                "Inductive learning also called Concept Learning is a way in which AI systems try to use a generalized rule to carry out observations. The data is obtained as a result of machine learning or from domain experts like humans where it is used to drive algorithms often called the Inductive Learning Algorithms ILA that are used to generate a set of classification rules. These rules that are generated are in the If this then that form.",
+                "Inductive learning is the same as what we commonly know as traditional supervised learning. We build and train a machine learning model based on a labelled training dataset we already have. Then we use this trained model to predict the labels of a testing dataset which we have never encountered before.",
+                "Inductive Learning is where we are given examples of a function in the form of data (x) and the output of the function (f(x)). The goal of inductive learning is to learn the function for new data (x)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Machine Learning Application",
+            "patterns": [
+                "Any Machine learning Application",
+                "Application of machine learning in real world"
+            ],
+            "responses": [
+                "Image recognition. Speech recognition. Medical diagnosis. Statistical arbitrage. Predictive analytics. Extraction."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Artificial Intelligence",
+            "patterns": [
+                "What is artificial Intelligence",
+                "What do you understand from AI"
+            ],
+            "response": [
+                "Artificial Intelligence uses numerous Machine Learning and Deep Learning techniques that enable computer systems to perform tasks using human-like intelligence with logic and rules."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "supervised and unsupervised machine learning algorithm",
+            "patterns": [
+                "What is the difference between supervised and unsupervised machine learning",
+                "Explain supervised and unsupervised algorithm",
+                "Explain supervised machine learning algorithm",
+                "Explain unsupervised machine learning algorithm"
+            ],
+            "responses": [
+                "Supervised learning: The algorithms of supervised learning use labeled data to get trained. The models take direct feedback to confirm whether the output that is being predicted is, indeed, correct. Moreover, both the input data and the output data are provided to the model, and the main aim here is to train the model to predict the output upon receiving new data. Supervised learning offers accurate results and can largely be divided into two parts, classification and regression. Unsupervised learning: The algorithms of unsupervised learning use unlabeled data for training purposes. In unsupervised learning, the models identify hidden data trends and do not take any feedback. The unsupervised learning model is only provided with input data. Unsupervised learnings main aim is to identify hidden patterns to extract information from unknown sets of data. It can also be classified into two parts, clustering and associations. Unfortunately, unsupervised learning offers results that are comparatively less accurate."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Machine Learning algorithm",
+            "patterns": [
+                "Any Machine learning Algorithm",
+                "State 5 Machine learning Algorithm"
+            ],
+            "responses": [
+                "1 Decision Trees, 2 Neural Networks or back propagation, 3 Probabilistic networks, 4 Nearest Neighbor, 5 Support vector machines"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Types of machine Learning algorithm",
+            "patterns": [
+                "What are types of machine Learning algorithm",
+                "What are the different Algorithm techniques in Machine Learning"
+            ],
+            "responses": [
+                "Supervised Learning, Unsupervised Learning, Semi-supervised Learning, Reinforcement Learning, Transduction, Learning to Learn"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Examples of supervised Learning",
+            "patterns": [
+                "State examples of supervised learning",
+                " Explain what is the function of Supervised Learning"
+            ],
+            "responses": [
+                "Classifications, Speech recognition, Regression, Predict time series, Annotate strings"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Clustering",
+            "patterns": [
+                "What is clustering",
+                "Explain clustering"
+            ],
+            "responses": [
+                "Clustering is a technique used in unsupervised learning that involves grouping data points. The clustering algorithm can be used with a set of data points. This technique will allow you to classify all data points into their particular groups. The data points that are thrown into the same category have similar features and properties, while the data points that belong to different groups have distinct features and properties."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "K means Clustering",
+            "patterns": [
+                "What is K means clustering",
+                "Explain  K means clustering"
+            ],
+            "responses": [
+                "This algorithm is commonly used when there is data with no specific group or category. K-means clustering allows you to find the hidden patterns in the data, which can be used to classify the data into various groups. The variable k is used to represent the number of groups the data is divided into, and the data points are clustered using the similarity of features. Here, the centroids of the clusters are used for labeling new data."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Classification",
+            "patterns": [
+                "What is classification",
+                "Explain  Classification"
+            ],
+            "responses": [
+                "In classification, a Machine Learning model is created that assists in differentiating data into separate categories. The data is labeled and categorized based on the input parameters."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Regression",
+            "patterns": [
+                "What is Regression",
+                "Explain Regression"
+            ],
+            "responses": [
+                "It is the process of creating a model for distinguishing data into continuous real values, instead of using classes or discrete values. It can also identify the distribution movement depending on historical data. It is used for predicting the occurrence of an event depending on the degree of association of variables. For example, the prediction of weather conditions depends on factors such as temperature, air pressure, solar radiation, elevation, and distance from the sea. The relation among these factors assists in predicting the weather condition."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Linear Regression",
+            "patterns": [
+                "What is Linear Regression",
+                "Explain  linear Regression"
+            ],
+            "responses": [
+                "Linear Regression is a supervised Machine Learning algorithm. It is used to find the linear relationship between the dependent and independent variables for predictive analysis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Logistic Regression",
+            "patterns": [
+                "What is Logistic Regression",
+                "Explain  logistic Regression"
+            ],
+            "responses": [
+                "Logistic regression is the proper regression analysis used when the dependent variable is categorical or binary. Like all regression analyses, logistic regression is a technique for predictive analysis. Logistic regression is used to explain data and the relationship between one dependent binary variable and one or more independent variables. Logistic regression is also employed to predict the probability of categorical dependent variables."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Decision Tree",
+            "patterns": [
+                "What is Decision Tree",
+                "Explain  Decision Tree"
+            ],
+            "responses": [
+                "A decision tree is used to explain the sequence of actions that must be performed to get the desired output. It is a hierarchical diagram that shows the actions."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Principal component Analysis or PCA",
+            "patterns": [
+                "What is PCA",
+                "Explain PCA",
+                "What is Principal component Analysis",
+                "Explain Principal component Analysis"
+            ],
+            "responses": [
+                "Multidimensional data is at play in the real world. Data visualization and computation become more challenging with the increase in dimensions. In such a scenario, the dimensions of data might have to be reduced to analyze and visualize it easily. This is done by: Removing irrelevant dimensions. Keeping only the most relevant dimensions. This is where Principal Component Analysis (PCA) is used."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Roc curve",
+            "patterns": [
+                "What is Roc Curve",
+                "Explain roc curve",
+                "What do you understand from roc curve"
+            ],
+            "responses": [
+                "The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds. Its often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "precision and recall",
+            "patterns": [
+                " Define precision and recall",
+                "Explain Precision and recall"
+            ],
+            "responses": [
+                "Recall is also known as the true positive rate: the amount of positives your model claims compared to the actual number of positives there are throughout the data. Precision is also known as the positive predictive value, and it is a measure of the amount of accurate positives your model claims compared to the number of positives it actually claims. It can be easier to think of recall and precision in the context of a case where youve predicted that there were 10 apples and 5 oranges in a case of 10 apples. Youd have perfect recall (there are actually 10 apples, and you predicted there would be 10) but 66.7% precision because out of the 15 events you predicted, only 10 (the apples) are correct."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bayes Theorem",
+            "patterns": [
+                "What is Bayes Theorem",
+                "Explain Bayes Theorem"
+            ],
+            "responses": [
+                "Bayes Theorem gives you the posterior probability of an event given what is known as prior knowledge. Mathematically, its expressed as the true positive rate of a condition sample divided by the sum of the false positive rate of the population and the true positive rate of a condition."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Naive Bayes Theorem",
+            "patterns": [
+                "What is naive Bayes Theorem",
+                "Explain Naive Bayes Theorem"
+            ],
+            "responses": [
+                "Despite its practical applications, especially in text mining, Naive Bayes is considered Naive because it makes an assumption that is virtually impossible to see in real-life data: the conditional probability is calculated as the pure product of the individual probabilities of components. This implies the absolute independence of features — a condition probably never met in real life."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Deep Learning",
+            "patterns": [
+                "What is Deep Learning",
+                "Explain Deep Learning",
+                "how does deep learning contrast with other machine learning algorithms"
+            ],
+            "responses": [
+                "Deep learning is a subset of machine learning that is concerned with neural networks: how to use backpropagation and certain principles from neuroscience to more accurately model large sets of unlabelled or semi-structured data. In that sense, deep learning represents an unsupervised learning algorithm that learns representations of data through the use of neural nets."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hash Table",
+            "patterns": [
+                "What is Hash table",
+                "Explain Hash table"
+            ],
+            "responses": [
+                "A hash table is a data structure that produces an associative array. A key is mapped to certain values through the use of a hash function. They are often used for tasks such as database indexing."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "data Mining",
+            "patterns": [
+                "What is data mining",
+                "Explain data mining"
+            ],
+            "responses": [
+                " Data mining can be defined as the process in which the unstructured data tries to extract knowledge or unknown interesting patterns. During this process machine, learning algorithms are used."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Overfitting",
+            "patterns": [
+                "What is overfitting",
+                "Explain overfitting and why it happens"
+            ],
+            "responses": [
+                "In machine learning, when a statistical model describes random error or noise instead of underlying relationship ‘overfitting occurs. When a model is excessively complex, overfitting is normally observed, because of having too many parameters with respect to the number of training data types. The model exhibits poor performance which has been overfit. The possibility of overfitting exists as the criteria used for training the model is not the same as the criteria used to judge the efficacy of a model."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Training set and test set",
+            "patterns": [
+                "what is Training set and test set"
+            ],
+            "responses": [
+                "In various areas of information science like machine learning, a set of data is used to discover the potentially predictive relationship known as Training Set. Training set is an examples given to the learner, while Test set is used to test the accuracy of the hypotheses generated by the learner, and it is the set of examples held back from the learner. Training set are distinct from Test set."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "support vector machine SVM",
+            "patterns": [
+                "What is Support vector machine",
+                "What is SVM"
+            ],
+            "response": [
+                "SVM is a Machine Learning algorithm that is majorly used for classification. It is used on top of the high dimensionality of the characteristic vector."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Confusion Matrix",
+            "patterns": [
+                "What is confusion matrix",
+                "Explain confusion matrix"
+            ],
+            "responses": [
+                "Confusion matrix is used to explain a models performance and gives the summary of predictions of the classification problems. It assists in identifying the uncertainty between classes."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Artificial Intelligence AI",
+            "patterns": [
+                "What is Artificial Intelligence",
+                "Explain Artificial Intelligence "
+            ],
+            "responses": [
+                "AI Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to reflect like humans and imitate their actions"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Model Accuracy",
+            "patterns": [
+                "What is Model Accuracy ",
+                "Explain Model Accuracy "
+            ],
+            "responses": [
+                "Model accuracy is considered as the important characteristic of a Machine Language /AI model. Whenever we discuss the performance of the model, we first clarify whether it is the model scoring performance or Model training performance"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Model Performance",
+            "patterns": [
+                "What is Model Performance",
+                "Explain Model Performance "
+            ],
+            "responses": [
+                "Model performance is improved by using distributed computing and parallelizing over the given scored assets, but we need to carefully build the accuracy during the model training process"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "False Positive and False Negative",
+            "patterns": [
+                "What Is a False Positive and False Negative ",
+                "Explain False Positive and False Negative "
+            ],
+            "responses": [
+                "False positives are those cases that wrongly get classified as True but are False. False negatives are those cases that wrongly get classified as False but are True"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Three Stages of Building a Model in Machine Learning",
+            "patterns": [
+                "What are Three Stages of Building a Model in Machine Learning ",
+                "Explain Three Stages of Building a Model in Machine Learning  "
+            ],
+            "responses": [
+                "1.Model building 2.Model training 3.Applying the model"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Applications of Supervised Machine Learning",
+            "patterns": [
+                "state Applications of Supervised Machine Learning ",
+                "Explain Applications of Supervised Machine Learning"
+            ],
+            "responses": [
+                "1.Email Spam Detection 2.Healthcare Diagnosis 3.Sentiment Analysis 4.Fraud Detection"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Semi-supervised Machine Learning",
+            "patterns": [
+                "What is Semi-supervised Machine Learning",
+                "Explain Semi-supervised Machine Learning"
+            ],
+            "responses": [
+                "Supervised learning uses data that is completely labeled, whereas unsupervised learning uses no training data. In the case of semi-supervised learning, the training data contains a small amount of labeled data and a large amount of unlabeled data"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Random Forest",
+            "patterns": [
+                "What is Random Forest",
+                "Explain Random Forest "
+            ],
+            "responses": [
+                "A random forest is a supervised machine learning algorithm that is generally used for classification problems It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Lasso and Ridge regression",
+            "patterns": [
+                " Difference between Lasso and Ridge regression",
+                "Explain Lasso and Ridge regression "
+            ],
+            "responses": [
+                "Lasso(also known as L1) and Ridge(also known as L2) regression are two popular regularization techniques that are used to avoid overfitting of data. These methods are used to penalize the coefficients to find the optimum solution and reduce complexity. The Lasso regression works by penalizing the sum of the absolute values of the coefficients. In Ridge or L2 regression, the penalty function is determined by the sum of the squares of the coefficients."
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Hypothesis in Machine Learning",
+            "patterns": [
+                "What is Hypothesis in Machine Learning ",
+                "Explain Hypothesis in Machine Learning  "
+            ],
+            "responses": [
+                " A hypothesis is a specific model that helps in mapping input to output the mapping can further be used for evaluation and prediction"
+            ],
+            "context": [
+                "info_regarding_Machine Learning"
+            ]
+        },
+        {
+            "tag": "Database",
+            "patterns": [
+                "What is Database ",
+                "What do you understand by Database",
+                "explain database"
+            ],
+            "responses": [
+                "Database is an organized collection of related data where the data is stored and organized to serve some specific purpose"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Database management system",
+            "patterns": [
+                "What is DBMS ",
+                "what is Database management system",
+                "Define DBMS"
+            ],
+            "responses": [
+                "DBMS stands for Database Management System. It is a collection of application programs which allow the user to organize, restore and retrieve information about data efficiently and as effectively as possible"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Relational Database Management System ",
+            "patterns": [
+                "What is RDBMS",
+                "what is Relational Database Management System",
+                "Explain RDBMS",
+                "Define RDBMS"
+            ],
+            "responses": [
+                "Relational Database Management System(RDBMS) is based on a relational model of data that is stored in databases in separate tables and they are related to the use of a common column. Data can be accessed easily from the relational database using Structured Query Language (SQL)"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "advantages of Database management system",
+            "patterns": [
+                "Explain advantages of DBMS ",
+                "Explain advantages of Database management system  "
+            ],
+            "responses": [
+                "Data is stored in a structured way and hence redundancy is controlled. Validates the data entered and provide restrictions on unauthorized access to the database. Provides backup and recovery of the data when required. It provides multiple user interfaces."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Data Redundancy",
+            "patterns": [
+                "What is Data Redundancy ",
+                "Explain Data Redundancy  ",
+                "What do you understand from Data Redundancy"
+            ],
+            "responses": [
+                "Duplication of data in the database is known as data redundancy. As a result of data redundancy, duplicated data is present at multiple locations, hence it leads to wastage of the storage space and the integrity of the database is destroyed"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Types of relationships in Database",
+            "patterns": [
+                "What are the types of relationships in Database ",
+                "Explain types of relationships in Database "
+            ],
+            "responses": [
+                "One-to-one: One table has a relationship with another table having the similar kind of column. Each primary key relates to only one or no record in the related table. One-to-many: One table has a relationship with another table that has primary and foreign key relations. The primary key table contains only one record that relates to none, one or many records in the related table. Many-to-many: Each record in both the tables can relate to many numbers of records in another table."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Normalization in database",
+            "patterns": [
+                "What is Normalization in database ",
+                "Explain Normalization in database  "
+            ],
+            "responses": [
+                "Normalization is the process of removing redundant data from the database by splitting the table in a well-defined manner in order to maintain data integrity. This process saves much of the storage space"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "De-Normalization in database",
+            "patterns": [
+                "What is De-Normalization in database ",
+                "Explain De-Normalization in database  "
+            ],
+            "responses": [
+                "De-normalization is the process of adding up redundant data on the table in order to speed up the complex queries and thus achieve better performance"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Different types of Normalization",
+            "patterns": [
+                "What is Different types of Normalization ",
+                "Explain Different types of Normalization  "
+            ],
+            "responses": [
+                "First Normal Form : A relation is said to be in 1NF only when all the entities of the table contain unique or atomic values. Second Normal Form : A relation is said to be in 2NF only if it is in 1NF and all the non-key attribute of the table is fully dependent on the primary key. Third Normal Form : A relation is said to be in 3NF only if it is in 2NF and every non-key attribute of the table is not transitively dependent on the primary key."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "SQL",
+            "patterns": [
+                "What is SQL",
+                "Explain SQL ",
+                "what is Structured Query language"
+            ],
+            "responses": [
+                "Structured Query language, SQL is an ANSI(American National Standard Institute) standard programming language that is designed specifically for storing and managing the data in the relational database management system (RDBMS) using all kinds of data operations."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "SQL statements",
+            "patterns": [
+                "state SQL statements ",
+                "Explain SQL statements "
+            ],
+            "responses": [
+                "SQL statements are basically divided into three categories DDL, DML, and DCL"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "DDL or Data definition Language",
+            "patterns": [
+                "What is DDL ",
+                "Explain DDL ",
+                "What is Data definition Language"
+            ],
+            "responses": [
+                "Data Definition Language DDL commands are used to define the structure that holds the data. These commands are auto-committed i.e. changes done by the DDL commands on the database are saved permanently"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "DML or Data manipulation Language",
+            "patterns": [
+                "What is DML ",
+                "Explain DML ",
+                "what is Data manipulation Language"
+            ],
+            "responses": [
+                "Data Manipulation Language (DML) commands are used to manipulate the data of the database. These commands are not auto-committed and can be rolled back."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "DCL or Data Control Language ",
+            "patterns": [
+                "What is Data Control Language  ",
+                "Explain Data Control Language  ",
+                "What is DCL "
+            ],
+            "responses": [
+                "Data Control Language (DCL) commands are used to control the visibility of the data in the database like revoke access permission for using data in the database."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "DML Compiler",
+            "patterns": [
+                "What is DML Compiler ",
+                "Explain DML Compiler  "
+            ],
+            "responses": [
+                "DML compiler translates DML statements in a query language into a low-level instruction and the generated instruction can be understood by Query Evaluation Engine"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "DDL interpreter",
+            "patterns": [
+                "What is DDL interpreter ",
+                "Explain DDL interpreter  "
+            ],
+            "responses": [
+                "DDL Interpreter interprets the DDL statements and records the generated statements in the table containing metadata"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "advantages of SQL",
+            "patterns": [
+                "What are advantages of SQL",
+                "Explain advantages of SQL  ",
+                "What are advantages of structured query language"
+            ],
+            "responses": [
+                "Simple SQL queries can be used to retrieve a large amount of data from the database very quickly and efficiently. SQL is easy to learn and almost every DBMS supports SQL. It is easier to manage the database using SQL as no large amount of coding is required."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Record in database",
+            "patterns": [
+                "What is Record in database ",
+                "Explain Record in database  "
+            ],
+            "responses": [
+                "Record is a collection of values or fields of a specific entity"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Field in database",
+            "patterns": [
+                "What is Field in database ",
+                "Explain Field in database"
+            ],
+            "responses": [
+                "A field refers to an area within a record that is reserved for specific data"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Table in database",
+            "patterns": [
+                "What is Table in database ",
+                "Explain Table in database  "
+            ],
+            "responses": [
+                "Table is the collection of records of specific types"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Data Independence",
+            "patterns": [
+                "What is Data Independence ",
+                "What do you understand by Data Independence "
+            ],
+            "responses": [
+                "Data Independence refers to the ability to modify the schema definition in one level in such a way that it does not affect the schema definition in the next higher level"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "view in database",
+            "patterns": [
+                "What is view in database ",
+                "Explain view in database ",
+                "Advantage of view in database"
+            ],
+            "responses": [
+                "View is a virtual table that does not have its data on its own rather the data is defined from one or more underlying base tables. As there is no physical location where the data in the view is stored, it generates output without wasting resources. Data access is restricted as it does not allow commands like insertion, updation, and deletion."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Functional dependency",
+            "patterns": [
+                "What do you understand by Functional dependency ",
+                "Explain  Functional dependency "
+            ],
+            "responses": [
+                "A relation is said to be in functional dependency when one attribute uniquely defines another attribute"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "E-R model",
+            "patterns": [
+                "What do you understand by the E-R model ",
+                "Explain E-R model  "
+            ],
+            "responses": [
+                "E-R model is an Entity-Relationship model which defines the conceptual view of the database.The E-R model basically shows the real-world entities and their association/relations. Entities here represent the set of attributes in the database"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Entity in database",
+            "patterns": [
+                "What is Entity in database ",
+                "Explain Entity in database  "
+            ],
+            "responses": [
+                "Entity can be anything, be it a place, class or object which has an independent existence in the real world"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Entity type in database",
+            "patterns": [
+                "What is Entity type in database ",
+                "Explain Entity type in database  "
+            ],
+            "responses": [
+                "Entity Type represents a set of entities that have similar attributes"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Entity set in database",
+            "patterns": [
+                "What is Entity set in database",
+                "Explain Entity set in database "
+            ],
+            "responses": [
+                "Entity Set in the database represents a collection of entities having a particular entity type"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Explain the terms Attribute and Relations",
+            "patterns": [
+                "What is Attribute and Relations ",
+                "Explain the terms Attribute and Relations "
+            ],
+            "responses": [
+                "Attribute is described as the properties or characteristics of an entity. For Example, Employee ID, Employee Name, Age, etc., can be attributes of the entity Employee. Relation is a two-dimensional table containing a number of rows and columns where every row represents a record of the relation. Here, rows are also known as ‘Tuples’ and columns are known as ‘Attributes’."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "cursor in database",
+            "patterns": [
+                "What is cursor ",
+                "Explain cursor  ",
+                "Define Cursor "
+            ],
+            "responses": [
+                " Cursor is a temporary work area that stores the data, as well as the result set, occurred after manipulation of data retrieved. A cursor can hold only one row at a time."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Implicit cursors",
+            "patterns": [
+                "What is Implicit cursors ",
+                "Explain Implicit cursors  "
+            ],
+            "responses": [
+                "Implicit cursors are declared automatically when DML statements like INSERT, UPDATE, DELETE is executed"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Explicit cursors",
+            "patterns": [
+                "What is Explicit cursors ",
+                "Explain Explicit cursors  "
+            ],
+            "responses": [
+                "Explicit cursors have to be declared when SELECT statements that are returning more than one row are executed"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Database transaction",
+            "patterns": [
+                "What is Database transaction ",
+                "Explain Database transaction  "
+            ],
+            "responses": [
+                "Sequence of operation performed which changes the consistent state of the database to another is known as the database transaction. After the completion of the transaction, either the successful completion is reflected in the system or the transaction fails and no change is reflected"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Database Lock and its types",
+            "patterns": [
+                "What is Database Lock and its types ",
+                "Explain Database Lock and its types "
+            ],
+            "responses": [
+                "Database lock basically signifies the transaction about the current status of the data item i.e. whether that data is being used by other transactions or not at the present point of time. There are two types of Database lock: Shared Lock and Exclusive Lock."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Data Warehousing",
+            "patterns": [
+                "What is Data Warehousing ",
+                "Explain Data Warehousing  "
+            ],
+            "responses": [
+                "The storage as well as access to data, that is being derived from the transactions and other sources, from a central location in order to perform the analysis is called Data Warehousing"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "join",
+            "patterns": [
+                "What do you understand by Join in database ",
+                "Explain join ",
+                "What is join"
+            ],
+            "responses": [
+                "Join is the process of deriving the relationship between different tables by combining columns from one or more tables having common values in each. When a table joins with itself, it is known as Self Join"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Fragmentation in database",
+            "patterns": [
+                " What do you understand by Fragmentation ",
+                "Explain Fragmentation in database  "
+            ],
+            "responses": [
+                "Fragmentation is a feature that controls the logical data units, also known as fragments that are stored at different sites of a distributed database system"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Inner JOIN",
+            "patterns": [
+                "What is Inner JOIN ",
+                "Explain Inner JOIN  "
+            ],
+            "responses": [
+                "Inner JOIN is also known as a simple JOIN. This SQL query returns results from both the tables having a common value in rows"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Natural JOIN",
+            "patterns": [
+                "What is Natural JOIN ",
+                "Explain Natural JOIN  "
+            ],
+            "responses": [
+                "Natural JOIN is a type of Inner JOIN that returns results from both the tables having the same data values in the columns of both the tables to be joined"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Cross JOIN",
+            "patterns": [
+                "What is Cross JOIN",
+                "Explain Cross JOIN "
+            ],
+            "responses": [
+                "Cross JOIN returns the result as all the records where each row from the first table is combined with each row of the second table"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Right JOIN",
+            "patterns": [
+                "What is Right JOIN",
+                "Explain Right JOIN "
+            ],
+            "responses": [
+                "Right JOIN is also known as Right Outer JOIN. This returns all the rows as a result from the right table even if the JOIN condition does not match any records in the left table"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Left JOIN",
+            "patterns": [
+                "What is Left JOIN ",
+                "Explain Left JOIN  "
+            ],
+            "responses": [
+                "Left JOIN is also known as Left Outer JOIN. This returns all the rows as a result of the left table even if the JOIN condition does not match any records in the right table. This is exactly the opposite of Right JOIN"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Full JOIN",
+            "patterns": [
+                "What is Full JOIN ",
+                "Explain Full JOIN  "
+            ],
+            "responses": [
+                "Full JOIN return results in combining the result of both the Left JOIN and Right JOIN"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Atomicity in sql",
+            "patterns": [
+                "What do you understand by Atomicity ",
+                "Explain Atomicity  "
+            ],
+            "responses": [
+                " Atomicity is the condition where either all the actions of the transaction are performed or none. This means, when there is an incomplete transaction, the database management system itself will undo the effects done by the incomplete transaction"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " Aggregation in sql",
+            "patterns": [
+                "What do you understand by Aggregation ",
+                "Explain Aggregation "
+            ],
+            "responses": [
+                "Aggregation is the concept of expressing the relationship with the collection of entities and their relationships"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " checkpoint in sql",
+            "patterns": [
+                "What is checkpoint ",
+                "Explain checkpoint  ",
+                "Define checkpoint"
+            ],
+            "responses": [
+                "Checkpoint declares a point before which all the logs are stored permanently in the storage disk and is the inconsistent state. In the case of crashes, the amount of work and time is saved as the system can restart from the checkpoint"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Data Dictionary",
+            "patterns": [
+                "What is Data Dictionary ",
+                "Explain the Data Dictionary "
+            ],
+            "responses": [
+                "Data dictionary is a set of information describing the content and structure of the tables and database objects. The job of the information stored in the data dictionary is to control, manipulate and access the relationship between database elements"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Primary Key",
+            "patterns": [
+                "What is Primary Key ",
+                "Explain Primary Key  "
+            ],
+            "responses": [
+                " Primary Key is that column of the table whose every row data is uniquely identified. Every row in the table must have a primary key and no two rows can have the same primary key. Primary key value can never be null nor can it be modified or updated"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Composite Key",
+            "patterns": [
+                "What is Composite Key ",
+                "Explain Composite Key "
+            ],
+            "responses": [
+                "Composite Key is a form of the candidate key where a set of columns will uniquely identify every row in the table"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Unique key",
+            "patterns": [
+                "What is Unique key ",
+                "Explain Unique key  "
+            ],
+            "responses": [
+                "A Unique key is the same as the primary key whose every row data is uniquely identified with a difference of null value i.e. Unique key allows one value as a NULL value"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Database Triggers",
+            "patterns": [
+                "What is Database Triggers ",
+                "Explain Database Triggers ",
+                "What do you understand by Database Triggers"
+            ],
+            "responses": [
+                " A set of commands that automatically get executed when an event like Before Insert, After Insert, On Update, On Delete of row occurs in a table is called as Database trigger"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": "Stored procedures",
+            "patterns": [
+                "What is Stored procedures",
+                "Explain Stored procedures ",
+                "Define Stored procedures"
+            ],
+            "responses": [
+                "A Stored procedure is a collection of pre-compiled SQL Queries, which when executed denotes a program taking input, process and gives the output"
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        },
+        {
+            "tag": " DELETE, TRUNCATE and DROP commands",
+            "patterns": [
+                "Differentiate between DELETE, TRUNCATE and DROP commands ",
+                "Explain DELETE, TRUNCATE and DROP commands  "
+            ],
+            "responses": [
+                "After the execution of DELETE operation, COMMIT and ROLLBACK statements can be performed to retrieve the lost data. After the execution of TRUNCATE operation, COMMIT, and ROLLBACK statements cannot be performed to retrieve the lost data, DROP command is used to drop the table or key like the primary key/foreign key."
+            ],
+            "context": [
+                "info_regarding_Database"
+            ]
+        }
+    ]
+}
